@@ -1,0 +1,30 @@
+@media(max-width: 768px) 
+{
+	.menu_link, .sub-menu_link {
+		font-size: calc(5px + (16 + 16 * 0.7) * ((100vw - 320) / 1280));
+	}
+
+	/*--====================== menu_burger ======================--*/
+
+	.menu {
+		position: relative;
+		height: 100%;
+		width: 300px;
+		float: right;
+	}
+	.menu_continer {
+		top: 0;
+		right: 0;
+		height: 150px;
+		width: 200px;
+	}
+	.menu_list {
+		display: block;
+	}
+}
+
+
+Working with GitHub Pages
+You can create a website directly from a GitHub repository.
+
+GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see
