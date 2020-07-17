@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+	<meta charset="UTF-8">
+	<title>Жалған WhatsApp Mesenger</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/Whatsapp Fake.css">
+	<link rel="stylesheet" type="text/css" href="css/@media_(max-widht)_file.css">
+	<link rel="icon" href="svg/whatsapp.svg" type="image/x-icon">
+</head>
+<body>
+
+<!--====================== Go to top ======================-->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button> 
+<script type="text/javascript">
+		var mybutton = document.getElementById("myBtn");
+
+		window.onscroll = function()
+		{scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400)
+			{
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+</script>
+
+<!--====================== header ======================-->
+
+	<header class="header">
+		<div class="row_menu">
+			<div class="logo_continer"></div>
+			<div class="logo">
+				<img src="../WEB - (Fake WhatsApp Chat Generator)/svg/whatsapp.svg">
+			</div>
+			<nav class="menu">
+				<div class="menu_continer"></div>
+				<ul class="menu_list">
+					<li><a href="#" class="menu_link">автыры</a></li>
+					<li><a href="#" class="menu_link">басты бет</a></li>
+					<li><a href="#" class="menu_link">жалған</a>
+						<ul class="sub-menu_list">
+							<li><a href="#" class="sub-menu_link">WhatsApp</a></li>
+							<li><a href="#" class="sub-menu_link">Telegram</a></li>
+							<li><a href="#" class="sub-menu_link">Vk</a></li>
+						</ul></li>
+					<li><a href="#" class="menu_link">осы турылы</a></li>
+					<li><a href="#" class="menu_link">контакт</a></li>
+				</ul>
+			</nav>
+		</div>
+	<script type="text/javascript">
+		window.addEventListener('scroll', function() {
+			var scroll = document.querySelector('.header');
+			scroll.classList.toggle("active_header" , window.scrollY > 30)
+		})
+	</script>
+	</header>
+	
+
+<!--====================== link js files ======================-->
+
+
+<script src="js/Whatsapp_Fake.js"></script>
+
+
+</body>
+</html>
